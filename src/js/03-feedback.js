@@ -18,6 +18,7 @@ function onFormSubmit(e) {
   e.preventDefault();
   e.currentTarget.reset();
   localStorage.removeItem(FORM_STATE);
+  console.log(formStateValue);
 }
 
 function populateTextArea() {
